@@ -1,0 +1,161 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>Home</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h2 class="logo"> <img src="./assets/logo.png"></h2>
+    <ion-slides loop="true" style="background-color: black">
+        <ion-slide *ngFor="let image of [1,2]">
+            <img data-src="./assets/Slide{{image}}.jpg">
+            <div class="banner-wrap">
+                <div class="container">
+                    <h3>Welcome to tatvasoft Male Table Tennis championship</h3>
+                    <div class="col-sm-7"><h3>Upcoming Matches</h3>
+                        <div class="latest-team"><span class="latest-team-a">Nisarg Patel</span><span class="vs">V/S</span><span class="latest-team-b">Dushyant Gadhiya</span></div>
+                        <div class="latest-team"><span class="latest-team-a">Navneet Bhimani</span><span class="vs">V/S</span><span class="latest-team-b">Sagar Patel</span></div></div>                              
+                </div>
+            </div>
+        </ion-slide>
+    </ion-slides>
+    <ion-grid>
+
+        <ion-row>
+            <ion-col col-4>
+ <h3> Rules </h3>
+ <ul>
+     <li>The service of the player will be decided by the referee by heading coin/ serving ball. </li>
+     <li>There will be 11 points of match with best of 3 games before quarter finals, after that there will be matches of best of 5.</li>
+     <li>An opponent fails to make a correct service, i.e. first ball will bounces on serving person's table side and the next it should bounces to the opponent's table side. If you fails to do service then opponent person will gain the point.</li>
+     <li>If an opponent fails to make a return of the service then serving person will gain the point.</li>
+     <li>If an opponent strikes the ball twice in succession, you will gain the point</li>
+     <li>If an opponent, or anything an opponent wears, touches the playing surface or net during play, you will gain the point.</li>
+     <li>If ball bounces twice or more on your end and you are not able to hit the ball then you will lose one point.</li>
+     <li>If you fails to hit the ball or you hit the ball in net then your opponent will get the point.</li>
+     <li>If ball touches to net and going to opponent's part then it will be valid, you need to continue playing.</li>
+
+ </ul>
+            </ion-col>
+            <ion-col col-4>
+
+            </ion-col>
+
+            <ion-col col-4>
+                <h3> Matches </h3>
+                <ion-slides>
+                    <ion-slide>
+                        <div class="themeum-recent-result-inner">
+                            <div class="themeum-recent-result-item-inner">
+                                <div class="clubnames">
+                                    <span class="text-left">Pankit shah vs -</span>
+                                    <span class="pull-right">27 May 2015</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="themeum-recent-result-item">
+                                    <div class="text-left themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col>Pankit Shah</div><div class="text-center themeum-recent-result-list"><span class="goal">3</span> - <span class="goal">0</span></div><div class="text-center themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col> - </div>
+                                </div>
+                            </div>
+                            <div class="themeum-recent-result-item-inner">
+                                <div class="clubnames">
+                                    <span class="text-left">Navneet Bhimani vs Sagar Patel</span>
+                                    <span class="pull-right">Scheduled on 11 Dec 2017</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="themeum-recent-result-item">
+                                    <div class="text-left themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col>Navneet Bhimani</div><div class="text-center themeum-recent-result-list"><span class="goal">0</span> - <span class="goal">0</span></div><div class="text-center themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col> Sagar Patel </div>
+                                </div>
+                            </div>
+                              <div class="themeum-recent-result-item-inner">
+                                <div class="clubnames">
+                                    <span class="text-left">Nisarg Patel vs Dushyant Gadhiya</span>
+                                    <span class="pull-right">Scheduled on 11 Dec 2017</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="themeum-recent-result-item">
+                                    <div class="text-left themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col>Nisarg Patel</div><div class="text-center themeum-recent-result-list"><span class="goal">0</span> - <span class="goal">0</span></div><div class="text-center themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col> Dushyant Gadhiya </div>
+                                </div>
+                            </div>
+                           <div class="themeum-recent-result-item-inner">
+                                <div class="clubnames">
+                                    <span class="text-left">Nisarg Patel vs Dushyant Gadhiya</span>
+                                    <span class="pull-right">Scheduled on 11 Dec 2017</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="themeum-recent-result-item">
+                                    <div class="text-left themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col>Nisarg Patel</div><div class="text-center themeum-recent-result-list"><span class="goal">0</span> - <span class="goal">0</span></div><div class="text-center themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col> Dushyant Gadhiya </div>
+                                </div>
+                            </div>
+                          <div class="themeum-recent-result-item-inner">
+                                <div class="clubnames">
+                                    <span class="text-left">Nisarg Patel vs Dushyant Gadhiya</span>
+                                    <span class="pull-right">Scheduled on 11 Dec 2017</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="themeum-recent-result-item">
+                                    <div class="text-left themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col>Nisarg Patel</div><div class="text-center themeum-recent-result-list"><span class="goal">0</span> - <span class="goal">0</span></div><div class="text-center themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col> Dushyant Gadhiya </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ion-slide>
+                      <ion-slide>
+                        <div class="themeum-recent-result-inner">
+                            <div class="themeum-recent-result-item-inner">
+                                <div class="clubnames">
+                                    <span class="text-left">Pankit shah vs -</span>
+                                    <span class="pull-right">27 May 2015</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="themeum-recent-result-item">
+                                    <div class="text-left themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col>Pankit Shah</div><div class="text-center themeum-recent-result-list"><span class="goal">3</span> - <span class="goal">0</span></div><div class="text-center themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col> - </div>
+                                </div>
+                            </div>
+                            <div class="themeum-recent-result-item-inner">
+                                <div class="clubnames">
+                                    <span class="text-left">Navneet Bhimani vs Sagar Patel</span>
+                                    <span class="pull-right">Scheduled on 11 Dec 2017</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="themeum-recent-result-item">
+                                    <div class="text-left themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col>Navneet Bhimani</div><div class="text-center themeum-recent-result-list"><span class="goal">0</span> - <span class="goal">0</span></div><div class="text-center themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col> Sagar Patel </div>
+                                </div>
+                            </div>
+                              <div class="themeum-recent-result-item-inner">
+                                <div class="clubnames">
+                                    <span class="text-left">Nisarg Patel vs Dushyant Gadhiya</span>
+                                    <span class="pull-right">Scheduled on 11 Dec 2017</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="themeum-recent-result-item">
+                                    <div class="text-left themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col>Nisarg Patel</div><div class="text-center themeum-recent-result-list"><span class="goal">0</span> - <span class="goal">0</span></div><div class="text-center themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col> Dushyant Gadhiya </div>
+                                </div>
+                            </div>
+                           <div class="themeum-recent-result-item-inner">
+                                <div class="clubnames">
+                                    <span class="text-left">Nisarg Patel vs Dushyant Gadhiya</span>
+                                    <span class="pull-right">Scheduled on 11 Dec 2017</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="themeum-recent-result-item">
+                                    <div class="text-left themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col>Nisarg Patel</div><div class="text-center themeum-recent-result-list"><span class="goal">0</span> - <span class="goal">0</span></div><div class="text-center themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col> Dushyant Gadhiya </div>
+                                </div>
+                            </div>
+                          <div class="themeum-recent-result-item-inner">
+                                <div class="clubnames">
+                                    <span class="text-left">Nisarg Patel vs Dushyant Gadhiya</span>
+                                    <span class="pull-right">Scheduled on 11 Dec 2017</span>
+                                </div>
+                                <div class="clearfix"></div>
+                                <div class="themeum-recent-result-item">
+                                    <div class="text-left themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col>Nisarg Patel</div><div class="text-center themeum-recent-result-list"><span class="goal">0</span> - <span class="goal">0</span></div><div class="text-center themeum-recent-result-list"><ion-col><ion-icon name="person"></ion-icon></ion-col> Dushyant Gadhiya </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ion-slide>
+                </ion-slides>
+
+
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+</ion-content>

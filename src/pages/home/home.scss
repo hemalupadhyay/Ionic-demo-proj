@@ -1,0 +1,137 @@
+page-home {
+.banner-wrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.banner-wrap h3 {   
+	    font-size: 3.4rem;
+    line-height: 4rem;
+    padding-bottom: 3.2rem;   
+    position: relative;
+    color: #fff;
+}
+.banner-wrap .vs {   
+	    font-size: 3.4rem;
+    line-height: 4rem;
+    color: #fff;
+}
+.btn-secondary {
+    background: 0 0;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: .6rem 2rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    height: 3.5rem;
+    display: inline-block;
+    position: relative;
+    transition: all .3s;
+}
+.logo {
+text-align:center;
+}
+#home-countdown-timer {
+    background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    color: #ffffff;
+    display: inline-block;
+    margin: 35px 0 25px;
+    padding: 25px;
+}
+#home-countdown-timer > div.next-match-count {
+    margin: 0 92px 0 0;
+}
+.latest-team {
+    position: relative;
+}
+.latest-team .latest-team-a,.latest-team .latest-team-b {
+border-color: #fad32b;
+}
+.latest-team .latest-team-a {
+    padding: 15px 20px 15px 50px;
+}
+.latest-team .latest-team-b {
+    
+    padding: 15px 50px 15px 20px;
+}
+
+span.latest-team-a, span.latest-team-b {
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.latest-team .latest-team-a, .latest-team .latest-team-b {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    position: relative;
+    text-transform: uppercase;
+	 background-color: #FAD32B;
+}	
+.themeum-recent-result-inner {
+height:367px;
+background-color:#000000;
+}
+.themeum-recent-result-inner {
+margin :11px 0;
+}
+
+.themeum-recent-result-inner .clubnames {
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.text-left {
+    text-align: left;
+}
+.text-left {
+    text-align: left;
+}
+.themeum-recent-result-item {
+    background: #191a1c;
+}
+.themeum-recent-result-item .themeum-recent-result-list {
+    width: 33%;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    height: 30px;
+    overflow: hidden;
+    word-break: break-all;
+    line-height: 30px;
+    margin-top: 7px;
+}
+.themeum-recent-result-inner .clubnames {
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.themeum-recent-result-inner .clubnames .pull-right{
+color: #fad32b;
+clear:both;
+}
+.themeum-recent-result-inner .clubnames {
+    background: #000;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+.themeum-recent-result-list img {
+    width: 15px;
+    display: inline-block;
+    margin: -2px 10px 0;
+}
+.pull-right {
+float:right;
+}
+.text-center {
+    text-align: center;
+}
+}
